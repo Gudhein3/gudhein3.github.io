@@ -1,0 +1,39 @@
+<!doctype HTML>
+<html>
+  <head>
+    <title>Gudhein3's personal page</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <center>Gudhein3's personal page</center>
+    <center>
+      <a href="https://github.com/Gudhein3">GitHub</a>
+      <a href="https://codeberg.org/Gudhein3">CodeBerg</a>
+      <a href="https://www.shadertoy.com/user/Kolya142">ShaderToy</a>
+      <a href="https://github.com/Gudhein3/Gudhein3.github.io">Source code of this page</a>
+    </center>
+    <bars>
+      <bar>
+        <block>
+          Cool projects of mine:<br>
+          <a href="/wheregp">WhereGP(MIT, contains thirdparty LGPL code), deployed</a><br><br>
+          <a href="https://github.com/Gudhein3/UCES">Unified Code Execution System(CC0). It's like JVM or Web, but simpler</a><br><br>
+          <a href="https://github.com/Gudhein3/kivac">Simple low level programming language(MIT)</a><br><br>
+          <a href="https://github.com/Gudhein3/simple_password_saver">Simple local password manager(MIT), Might have security issues</a><br><br>
+          <a href="https://github.com/Gudhein3/yamspl">Programming language based on substitutions(MIT), Kind of Lambda Calculus, but better</a>
+        </block>
+      </bar>
+      <bar>
+        <block>
+          Blog posts:<br>
+          %%
+        </block>
+      </bar>
+      <bar>
+        <block>
+          Other information:<br>
+        </block>
+      </bar>
+    </bars>
+  </body>
+</html>

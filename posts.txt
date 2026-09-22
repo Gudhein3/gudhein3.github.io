@@ -1,0 +1,32 @@
+Hello, blog!
+Tue Sep 22 12:11:16 2026 - MSK
+Hello, everyone!
+This is my first post.
+
+Firstly, I'd like to answer a possible question you may have that sounds like "why don't you use thirdparty blog systems?".
+The problem with thirdparty blog systems, is that they are usually bloated and often require JavaScript to just render the text.
+On the other hand, my blog system that doesn't require code on neither client, nor server; It generates html files from a special blog posts format, after which I upload them to Github pages;
+The generates is very fast, <a href="/blog/post_9a4a538159.html">test with 4000 posts</a> took about 202 milliseconds including time of system actions to generate.
+By the way, you can get all posts in raw format by going <a href="/posts.txt">hither</a>.
+
+I also want to say about the posts, how they will look like, about what they will be, in which language they will be, etc.
+First of, the language is probably will be mostly English, tho I consider writing posts in Russian, maybe in German and Esperanto(when I'll have them learnt).
+Second, the topics, they're going to be various, some on programs, languages, Math, some on less technical things.
+Third, the look, it's probably not change much over time, I may improve my English level, change the way of stylization, work more on the blog system.
+
+Okay, end of the post
+--------------------
+The test with 4000 posts
+Tue Sep 22 12:57:52 2026 - MSK
+I did a simple test to check the performance of my blog system, the result is .202s for 4000 posts.
+For the test, I specifically wrote this python script to generate 4000 posts:
+<code>
+formt = "Lorem ipsum %%\n%%\n%%\n--------------------\n"
+
+with open("posts.test.txt", 'w') as f:
+    for i in range(4000):
+        f.write(formt.replace("%%", str(i)))
+</code>
+And started the compiler on my laptop with a Kingston OM3PDP3 NVMe SSD and installed btrfs.
+The information above is important because my system generates a separated HTML file for each post, hence does a lot of work on the disk.
+Linux of course does a lot for job with caching, but I think the error is negligible and we can ignore it.

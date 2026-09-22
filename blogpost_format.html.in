@@ -1,0 +1,19 @@
+<!doctype HTML>
+<html>
+  <head>
+    <title>Gudhein3's personal blog: %title%</title>
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <center>Gudhein3's personal blog: %title%</center>
+    <center>Writen at %date%</center>
+    <center>
+      <a href="https://github.com/Gudhein3">GitHub</a>
+      <a href="https://codeberg.org/Gudhein3">CodeBerg</a>
+      <a href="https://www.shadertoy.com/user/Kolya142">ShaderToy</a>
+      <a href="https://github.com/Gudhein3/Gudhein3.github.io">Source code of this page</a>
+      <a href="/">Home page</a>
+    </center>
+    %body%
+  </body>
+</html>
