@@ -6,7 +6,7 @@ This is my first post.
 Firstly, I'd like to answer a possible question you may have that sounds like "why don't you use thirdparty blog systems?".
 The problem with thirdparty blog systems, is that they are usually bloated and often require JavaScript to just render the text.
 On the other hand, my blog system that doesn't require code on neither client, nor server; It generates html files from a special blog posts format, after which I upload them to Github pages;
-The generates is very fast, <a href="/blog/post_9a4a538159.html">test with 4000 posts</a> took about 202 milliseconds including time of system actions to generate.
+The generation is very fast, <a href="/blog/post_9a4a538159.html">test with 4000 posts</a> took about 202 milliseconds to generate.
 By the way, you can get all posts in raw format by going <a href="/posts.txt">hither</a>.
 
 I also want to say about the posts, how they will look like, about what they will be, in which language they will be, etc.
@@ -27,6 +27,28 @@ with open("posts.test.txt", 'w') as f:
     for i in range(4000):
         f.write(formt.replace("%%", str(i)))
 </code>
-And started the compiler on my laptop with a Kingston OM3PDP3 NVMe SSD and installed btrfs.
+And compiled that posts on my laptop with a Kingston OM3PDP3 NVMe SSD and installed btrfs.
 The information above is important because my system generates a separated HTML file for each post, hence does a lot of work on the disk.
-Linux of course does a lot for job with caching, but I think the error is negligible and we can ignore it.
+Linux of course does a lot of job with caching, but I think the affect is negligible and we can ignore it.
+--------------------
+Latinica dlǎ russkogo jazyka
+Wed Sep 23 12:53:32 2026 - MSK
+Klassičeski, russkij jazyk zapisyvajut kirillicoj — alfavitom, specialíno sdelanym dlá jazyka, togda nazyvajuŝejsǎ slavánskim.
+Bessporno, kirillica horošij alfavit dlá russkogo, t.k. byla sdélana specialíno dlá slavánskih jazykov. Těm ně menije, nékotoryje slavánskije jazyki, kak polískij, čehskij, vsěže adaptirovali latinicu.
+Eto, s něobhodimostíju pěrěklǔčenija raskladi, vdohnovilo měnǎ sdelatí svoj latinskij alfavit dlǎ dannogo jazyka.
+Sobstvěnno, věsí etot post napisan, inspolízuja moj alfavit)
+
+Moj alfavit sostoit iz TBD soglasnyh, TBD glasnyh i 1 mǎgkogo znaka, í, vot oni:
+AǍBCČDEĚFGHIÍJKLMNOǑPRSŠŜTUǓVYZŽ
+aǎbcčdeěfghiíjklmnoǒprsšŝtuǔvyzž
+
+ABDEFGHIKLMNOPRSTUVZ zvyčat kak vy i ožidajetě ot nih.
+Č, Š, Ŝ, Ž oboznačajut zvyki Ч, Ш, Щ, Ж.
+C oboznačajet zvuk Ц.
+J oboznačajet zvuk Й.
+Y oboznačajet zvuk Ы.
+Í smǎgčajet soglasnuju pěrěd soboj, no ně izdajot zvuk.
+Ǎ, Ě, Ǒ, Ǔ rabotajut kak Я, Е, Ё, Ю.
+QWX ně ispolízujutsa, vsǒ ravno ně komu oni ne nužny.
+
+Nadějusí na bolíšee rasprostroněnije iděi pohožih alfavitov.
