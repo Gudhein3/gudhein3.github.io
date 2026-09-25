@@ -1,4 +1,4 @@
-Hello, blog!
+hello | Hello, blog!
 Tue Sep 22 12:11:16 2026 - MSK
 Hello, everyone!
 This is my first post.
@@ -6,7 +6,7 @@ This is my first post.
 Firstly, I'd like to answer a possible question you may have that sounds like "why don't you use thirdparty blog systems?".
 The problem with thirdparty blog systems, is that they are usually bloated and often require JavaScript to just render the text.
 On the other hand, my blog system that doesn't require code on neither client, nor server; It generates html files from a special blog posts format, after which I upload them to Github pages;
-The generation is very fast, <a href="/blog/post_9a4a538159.html">test with 4000 posts</a> took about 202 milliseconds to generate.
+The generation is very fast, <a href="/blog/post_test4000p.html">test with 4000 posts</a> took about 202 milliseconds to generate.
 By the way, you can get all posts in raw format by going <a href="/posts.txt">hither</a>.
 
 I also want to say about the posts, how they will look like, about what they will be, in which language they will be, etc.
@@ -16,7 +16,8 @@ Third, the look, it's probably not change much over time, I may improve my Engli
 
 Okay, end of the post
 --------------------
-The test with 4000 posts
+
+test4000p | The test with 4000 posts
 Tue Sep 22 12:57:52 2026 - MSK
 I did a simple test to check the performance of my blog system, the result is .202s for 4000 posts.
 For the test, I specifically wrote this python script to generate 4000 posts:
@@ -31,9 +32,10 @@ And compiled that posts on my laptop with a Kingston OM3PDP3 NVMe SSD and instal
 The information above is important because my system generates a separated HTML file for each post, hence does a lot of work on the disk.
 Linux of course does a lot of job with caching, but I think the affect is negligible and we can ignore it.
 --------------------
-Latinica dlǎ russkogo jazyka
+
+latinicaprelude | Latinica dlǎ russkogo jazyka
 Wed Sep 23 12:53:32 2026 - MSK
-Klassičeski, russkij jazyk zapisyvajut kirillicoj — alfavitom, specialíno sdelanym dlá jazyka, togda nazyvajuŝejsǎ slavánskim.
+Klassičeski, russkij jazyk zapisyvajut kirillicoj — alfavitom, specialíno sdelanym dlá jazyka, togda nazyvajemym slavánskim.
 Bessporno, kirillica horošij alfavit dlá russkogo, t.k. byla sdélana specialíno dlá slavánskih jazykov. Těm ně menije, nékotoryje slavánskije jazyki, kak polískij, čehskij, vsěže adaptirovali latinicu.
 Eto, s něobhodimostíju pěrěklǔčenija raskladi, vdohnovilo měnǎ sdelatí svoj latinskij alfavit dlǎ dannogo jazyka.
 Sobstvěnno, věsí etot post napisan, inspolízuja moj alfavit)
@@ -52,3 +54,49 @@ Y oboznačajet zvuk Ы.
 QWX ně ispolízujutsa, vsǒ ravno ně komu oni ne nužny.
 
 Nadějusí na bolíšee rasprostroněnije iděi pohožih alfavitov.
+--------------------
+
+onmodernsoftwareandvibecoding | On modern software and vibecoding
+Fri Sep 25 10:07:38 2026 - MSK
+In the age of vibecoding, massive layoffs, lack of experienced programmers and narcissistic management of big tech companies, there is no surprise that the modern software industry is not about making good, usable, well verbose software, but more like copying output from LLM chatbot to get paid $5000 without any effort.
+Why I am so confident about that?
+Because I keep seeing vibecoding "tutorials". Of course, writing a good prompt is not just 0.5s of brain activity, but more like 1.5s of brain activity.
+I know, that is a revolutional technology, computer that has an ability to generate coherent sentences based on patterns automatically learnt from human texts is nice and cool.
+But, if people using it are willingly taking courses on, basically, how to form coherent prompts and don't check the output before pasting it into their code, I don't feel like their code is going to be nice and work well.
+
+What I propose to do: Stop overtrusting LLMs; Stop the growth until we(humanity) fix the alignment problem(that one is for Trump); Demonopolize the industry; Stop the trend of putting AI everywhere and anywhere; Start marking LLM-generated content as LLM-generated.
+
+FAQ - Frequently Argumented Quacks:
+1. - You are luddite.
+- (You might have mean <a href="https://en.wikipedia.org/wiki/Neo-Luddism">Neo-luddite</a>; I know that it's not nice to source source without enough citations, I just couldn't find more reliable sources)
+First of, All I want is listed above, if you haven't read it, please read the previous paragraph;
+If this sounds Neo-ludditish to you, well, no problem, your definition is yours and mine is mine.
+Second, even if I am "Neo-luddite", what's the problem?
+I am not acting against average people, nor even the technology, I am not acting against companies either. Speaking about the problems you <b>should have</b> read is not the same because it's, well, not destructive, also, we have "freedom of speech".
+Third, Speaking against the cons of the technology and its applications as well as not willing to use it is not the same as mindlessly hating and break modern innovations just because they are modern.
+2. - Not using LLMs is not productive
+- Maybe, but this is not against what my points are about.
+Anyways, people before LLMs were as productive as they are now.
+What's changed? How programmers and management treat quality of their products. It used to be well better than now.
+For example, a website I use had almost no technical troubles before 2026. After 2026, almost every week I found 2 bugs.
+Or, YouTube®, its mobile version used to work as well as the browser version, now, it has more buggy parts than non-buggy parts.
+I can say the same for IOS®, Google® search engine(kinda), and others.
+3. - Quack.
+- Quack. Quack.
+4. - LLMs have feelings (thankfully, this is rarely argumented)
+- Nope, they haven't.
+Recent news about LLMs reacting like humans are caused due to them being non-aligned and just imitating human emotions they were trained on.
+This is really scary, but it will likely be fixed after solving the alignment problem.
+5. - People shouldn't overtrust LLMs
+- Yes, they shouldn't.
+Unfortunately, the reality tells us that people often get used to use tools simplifying their lives and don't bother to check, do it themselves.
+For example, try to calculate 12 * 3 + 4.
+You probably have opened a calculator application on your device.
+This is what I'm talking about, you haven't thought that 12 * 3 + 4 = 10 * 3 + 2 * 3 + 4 = 36 + 4 = 40, you used a calculator.
+The same is for LLMs, I'm talking from my own experience right now.
+If you have a working solution, I'd like to hear it, I'd like mark this section as being solved.
+
+If you have other arguments, I'd like to hear them: <a href="mailto:nikolasshevelkos+llmarguments@gmail.com">nikolasshevelkos+llmarguments@gmail.com</a>
+
+P.S. I'm not against the vibecoding itself, I am against bad code often caused by vibecoding.
+P.P.S. This post contains four thousands four symbols in raw form.

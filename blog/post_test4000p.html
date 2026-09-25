@@ -1,0 +1,31 @@
+<!doctype HTML>
+<html>
+<head>
+<title>Gudhein3's personal blog: The test with 4000 posts</title>
+<link rel="stylesheet" href="/style.css" />
+<meta charset="utf-8">
+</head>
+<body>
+<center>Gudhein3's personal blog: The test with 4000 posts</center>
+<center>Written at Tue Sep 22 12:57:52 2026 - MSK</center>
+<center>
+<a href="https://github.com/Gudhein3">GitHub</a>
+<a href="https://codeberg.org/Gudhein3">CodeBerg</a>
+<a href="https://www.shadertoy.com/user/Kolya142">ShaderToy</a>
+<a href="https://github.com/Gudhein3/Gudhein3.github.io">Source code of this page</a>
+<a href="/">Home page</a>
+</center>
+I did a simple test to check the performance of my blog system, the result is .202s for 4000 posts.<br>
+For the test, I specifically wrote this python script to generate 4000 posts:<br>
+<code><br>
+formt = "Lorem ipsum %%\n%%\n%%\n--------------------\n"<br>
+<br>
+with open("posts.test.txt", 'w') as f:<br>
+    for i in range(4000):<br>
+        f.write(formt.replace("%%", str(i)))<br>
+</code><br>
+And compiled that posts on my laptop with a Kingston OM3PDP3 NVMe SSD and installed btrfs.<br>
+The information above is important because my system generates a separated HTML file for each post, hence does a lot of work on the disk.<br>
+Linux of course does a lot of job with caching, but I think the affect is negligible and we can ignore it.
+</body>
+</html>
