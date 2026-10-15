@@ -4,10 +4,12 @@
 <title>Gudhein3's personal blog: %title%</title>
 <link rel="stylesheet" href="/style.css" />
 <meta charset="utf-8">
+<meta name="ai-usage" content="no-training, no-summarization">
 </head>
 <body>
 <center>Gudhein3's personal blog: %title%</center>
 <center>Written at %date%</center>
+<center>This page is released under Public Domain :3<br><b>But, don't mudze</b> train your LLM on this text >:(</center>
 <center>
 <a href="https://github.com/Gudhein3">GitHub</a>
 <a href="https://codeberg.org/Gudhein3">CodeBerg</a>
